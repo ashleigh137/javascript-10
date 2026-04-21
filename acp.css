@@ -1,0 +1,12 @@
+body
+{
+    text-align: center;
+}
+form
+{
+    margin-left: 180px;
+}
+fieldset
+{
+    width: fit-content;
+}

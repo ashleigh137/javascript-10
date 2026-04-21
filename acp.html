@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="acp.css">
+</head>
+<body>
+
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCS8ocNHyp_TZT7v3flrJpIzpOmuOKsNb9xA&s" height="50px" width="50px">
+    <h4>Blood donation checker</h4>
+    <p>find out, if you can donate today</p>
+<form>
+<fieldset>
+
+    Name:<input type="text"><br><br>
+    Age:<input type="number"><br><br>
+    Blood Group:
+    <select>
+        <option> AB+</option>
+        <option> AB-</option>
+        <option> A+</option>
+        <option> A-</option>
+        <option> B+</option>
+        <option> B-</option>
+        <option> O+</option>
+    </select>
+    <br><br>
+    Conditions
+    <input type="checkbox" name="cond"> I weight atleast 50 kg <br><br>
+    <input type="checkbox" name="cond"> No infection or illness right now <br><br>
+<input type="checkbox" name="cond"> I have not donated blood in the last 8 weeks <br><br>
+<input type="checkbox" name="cond"> No new tattoo or piercing in the last 6 months <br><br>
+<input type="checkbox" name="cond"> I have not consumed alchol today <br><br>
+<input type="checkbox" name="cond"> I have not smoked in the last 2 hours<br><br>
+<button onclick="checheligble()" type="button">Check Eligibility</button>
+</fieldset>
+<p id="result"></p>
+</form>
+
+
+
+<script src="acp.js"></script>
+</body>
+</html>
